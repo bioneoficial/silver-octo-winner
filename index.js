@@ -131,7 +131,7 @@ function initialize() {
   gameCodeDisplay.textContent = "---";
   gameAttemptDisplay.innerHTML = "<b>Attempt 0 of 3</b>";
 
-  programSelector.style.display = "block";
+  programSelector.style.display = "flex";
   gameContainer.style.display = "none";
 
   programCodeInput.value = "";
